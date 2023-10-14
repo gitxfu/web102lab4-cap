@@ -1,0 +1,110 @@
+/* Importing the font 'Poppins' from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Styling for the root element, typically the <div id="root"></div> in React applications */
+#root {
+  max-width: 1280px; /* Sets the maximum width */
+  margin: 0 auto; /* Centers the element horizontally */
+  padding: 2rem; /* Adds padding around the element */
+  text-align: center; /* Aligns text to the center */
+  font-family: 'Poppins', sans-serif; /* Sets the font family */
+}
+
+/* Resets the list style for all <li> elements */
+li {
+  list-style: none; /* Removes the default list bullet */
+}
+
+/* Specific styling for <li> elements with class 'form' */
+li.form {
+  padding: 15px; /* Adds padding */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Adds shadow */
+  margin: 5px; /* Adds margin */
+  border-radius: 8px; /* Rounds the corners */
+  background-color: #cadcf2; /* Sets background color */
+  width: 300px; /* Sets width */
+}
+
+/* Styling for all <input> elements */
+input {
+  font-family: 'Poppins'; /* Sets the font family */
+}
+
+/* Styling for elements with class 'form-container' */
+.form-container {
+  display: flex; /* Sets up a flex container */
+  justify-content: space-evenly; /* Distributes items evenly */
+  align-items: stretch; /* Stretches items to fill the container */
+  position: relative; /* Sets position context for absolutely positioned children */
+  padding: 15px; /* Adds padding */
+  flex-wrap: wrap; /* Allows flex items to wrap onto multiple lines */
+}
+
+/* Styling for elements with class 'image-container' */
+.image-container {
+  display: flex; /* Sets up a flex container */
+  justify-content: space-evenly; /* Distributes items evenly */
+  padding: 10px; /* Adds padding */
+  flex-wrap: wrap; /* Allows flex items to wrap onto multiple lines */
+}
+
+/* Styling for elements with class 'whole-page' */
+.whole-page {
+  background-color: rgba(37, 67, 110, 0.9); /* Sets background color */
+  border-radius: 10px; /* Rounds the corners */
+  padding-top: 10px; /* Adds padding to the top */
+  padding-bottom: 10px; /* Adds padding to the bottom */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Adds shadow */
+  margin-top: 15px; /* Adds margin to the top */
+}
+
+/* Styling for elements with class 'button' */
+.button {
+  color: #fff; /* Sets text color */
+  background-color:black; /* Sets background color */
+  border: none; /* Removes border */
+  border-radius: 15px; /* Rounds the corners */
+  box-shadow: 0 7px rgb(62, 62, 62); /* Adds shadow */
+}
+
+/* Styling for elements with class 'button' on hover */
+.button:hover {
+  background-color: #1a1a1a; /* Changes background color on hover */
+}
+
+/* Styling for elements with class 'button' on active (when clicked) */
+.button:active {
+  background-color: #0b0b0b; /* Changes background color when clicked */
+  box-shadow: 0 3px #666; /* Changes shadow when clicked */
+  transform: translateY(4px); /* Slightly moves button down when clicked */
+}
+
+/* Styling for elements with class 'container' */
+.container {
+  padding: 15px; /* Adds padding */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Adds shadow */
+  margin-left: 5%; /* Adds margin to the left */
+  margin-right: 5%; /* Adds margin to the right */
+  border-radius: 8px; /* Rounds the corners */
+  background-color: #cadcf2; /* Sets background color */
+}
+
+/* Styling for elements with class 'screenshot' */
+.screenshot {
+  max-width: 90%; /* Sets the maximum width */
+  margin-bottom: 20px; /* Adds margin to the bottom */
+  border-radius: 8px; /* Rounds the corners */
+}
+
+/* Styling for elements with class 'gallery-screenshot' */
+.gallery-screenshot {
+  border-radius: 8px; /* Rounds the corners */
+}
+
+.quota {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  color: blue;
+}
