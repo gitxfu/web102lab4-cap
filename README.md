@@ -1,4 +1,7 @@
 # Lab 4
+![screenshot1](image.png)
+
+![screenshot2](image-1.png)
 
 **Step 0: Set up**
 
