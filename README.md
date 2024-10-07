@@ -1,4 +1,11 @@
-# Lab 4
+# CAP
+
+Key Features:
+- Customizable screenshot parameters (format, dimensions, ad removal, etc.)
+- Real-time query status display
+- Gallery view of previously captured screenshots
+- API quota tracking
+
 ![screenshot1](image.png)
 
 ![screenshot2](image-1.png)
